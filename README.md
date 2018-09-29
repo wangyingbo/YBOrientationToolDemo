@@ -4,7 +4,6 @@
 
 项目：[YBOrientationTool](https://github.com/wangyingbo/YBOrientationToolDemo.git) 
 
-预览图
 ![image](https://raw.githubusercontent.com/wangyingbo/YBOrientationToolDemo/master/gif.gif)
 
 
