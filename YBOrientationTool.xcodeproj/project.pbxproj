@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		036B2800215F1F14002836E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 036B27FF215F1F14002836E3 /* AppDelegate.m */; };
-		036B2803215F1F14002836E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036B2802215F1F14002836E3 /* ViewController.m */; };
 		036B2806215F1F14002836E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036B2804215F1F14002836E3 /* Main.storyboard */; };
 		036B2808215F1F16002836E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036B2807215F1F16002836E3 /* Assets.xcassets */; };
 		036B280B215F1F16002836E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036B2809215F1F16002836E3 /* LaunchScreen.storyboard */; };
 		036B280E215F1F16002836E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 036B280D215F1F16002836E3 /* main.m */; };
 		036B2818215F1F16002836E3 /* YBOrientationToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 036B2817215F1F16002836E3 /* YBOrientationToolTests.m */; };
 		036B2823215F1F16002836E3 /* YBOrientationToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 036B2822215F1F16002836E3 /* YBOrientationToolUITests.m */; };
+		036B2839215F200F002836E3 /* AppDelegate+Autorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 036B2831215F200F002836E3 /* AppDelegate+Autorotate.m */; };
+		036B283A215F200F002836E3 /* UINavigationController+Autorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 036B2832215F200F002836E3 /* UINavigationController+Autorotate.m */; };
+		036B283B215F200F002836E3 /* UITabBarController+Autorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 036B2836215F200F002836E3 /* UITabBarController+Autorotate.m */; };
+		036B283C215F200F002836E3 /* OrientationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 036B2838215F200F002836E3 /* OrientationTool.m */; };
+		036B2840215F20B9002836E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036B283E215F20B9002836E3 /* ViewController.m */; };
+		036B2844215F20C7002836E3 /* BaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036B2842215F20C6002836E3 /* BaseWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +43,6 @@
 		036B27FB215F1F14002836E3 /* YBOrientationTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YBOrientationTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		036B27FE215F1F14002836E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		036B27FF215F1F14002836E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		036B2801215F1F14002836E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		036B2802215F1F14002836E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		036B2805215F1F14002836E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		036B2807215F1F16002836E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		036B280A215F1F16002836E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,18 @@
 		036B281E215F1F16002836E3 /* YBOrientationToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBOrientationToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		036B2822215F1F16002836E3 /* YBOrientationToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBOrientationToolUITests.m; sourceTree = "<group>"; };
 		036B2824215F1F16002836E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036B2831215F200F002836E3 /* AppDelegate+Autorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Autorotate.m"; sourceTree = "<group>"; };
+		036B2832215F200F002836E3 /* UINavigationController+Autorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Autorotate.m"; sourceTree = "<group>"; };
+		036B2833215F200F002836E3 /* UITabBarController+Autorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+Autorotate.h"; sourceTree = "<group>"; };
+		036B2834215F200F002836E3 /* OrientationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrientationTool.h; sourceTree = "<group>"; };
+		036B2835215F200F002836E3 /* AppDelegate+Autorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Autorotate.h"; sourceTree = "<group>"; };
+		036B2836215F200F002836E3 /* UITabBarController+Autorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+Autorotate.m"; sourceTree = "<group>"; };
+		036B2837215F200F002836E3 /* UINavigationController+Autorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Autorotate.h"; sourceTree = "<group>"; };
+		036B2838215F200F002836E3 /* OrientationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrientationTool.m; sourceTree = "<group>"; };
+		036B283E215F20B9002836E3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		036B283F215F20B9002836E3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		036B2842215F20C6002836E3 /* BaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWebViewController.m; sourceTree = "<group>"; };
+		036B2843215F20C6002836E3 /* BaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWebViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +116,10 @@
 		036B27FD215F1F14002836E3 /* YBOrientationTool */ = {
 			isa = PBXGroup;
 			children = (
+				036B2830215F200F002836E3 /* OrientationTool */,
 				036B27FE215F1F14002836E3 /* AppDelegate.h */,
 				036B27FF215F1F14002836E3 /* AppDelegate.m */,
-				036B2801215F1F14002836E3 /* ViewController.h */,
-				036B2802215F1F14002836E3 /* ViewController.m */,
+				036B283D215F20B9002836E3 /* Controllers */,
 				036B2804215F1F14002836E3 /* Main.storyboard */,
 				036B2807215F1F16002836E3 /* Assets.xcassets */,
 				036B2809215F1F16002836E3 /* LaunchScreen.storyboard */,
@@ -130,6 +145,40 @@
 				036B2824215F1F16002836E3 /* Info.plist */,
 			);
 			path = YBOrientationToolUITests;
+			sourceTree = "<group>";
+		};
+		036B2830215F200F002836E3 /* OrientationTool */ = {
+			isa = PBXGroup;
+			children = (
+				036B2835215F200F002836E3 /* AppDelegate+Autorotate.h */,
+				036B2831215F200F002836E3 /* AppDelegate+Autorotate.m */,
+				036B2834215F200F002836E3 /* OrientationTool.h */,
+				036B2838215F200F002836E3 /* OrientationTool.m */,
+				036B2837215F200F002836E3 /* UINavigationController+Autorotate.h */,
+				036B2832215F200F002836E3 /* UINavigationController+Autorotate.m */,
+				036B2833215F200F002836E3 /* UITabBarController+Autorotate.h */,
+				036B2836215F200F002836E3 /* UITabBarController+Autorotate.m */,
+			);
+			path = OrientationTool;
+			sourceTree = "<group>";
+		};
+		036B283D215F20B9002836E3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				036B283F215F20B9002836E3 /* ViewController.h */,
+				036B283E215F20B9002836E3 /* ViewController.m */,
+				036B2841215F20C6002836E3 /* BaseWebViewControler */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		036B2841215F20C6002836E3 /* BaseWebViewControler */ = {
+			isa = PBXGroup;
+			children = (
+				036B2843215F20C6002836E3 /* BaseWebViewController.h */,
+				036B2842215F20C6002836E3 /* BaseWebViewController.m */,
+			);
+			path = BaseWebViewControler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +311,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				036B2803215F1F14002836E3 /* ViewController.m in Sources */,
+				036B2840215F20B9002836E3 /* ViewController.m in Sources */,
 				036B280E215F1F16002836E3 /* main.m in Sources */,
+				036B2844215F20C7002836E3 /* BaseWebViewController.m in Sources */,
+				036B2839215F200F002836E3 /* AppDelegate+Autorotate.m in Sources */,
 				036B2800215F1F14002836E3 /* AppDelegate.m in Sources */,
+				036B283C215F200F002836E3 /* OrientationTool.m in Sources */,
+				036B283A215F200F002836E3 /* UINavigationController+Autorotate.m in Sources */,
+				036B283B215F200F002836E3 /* UITabBarController+Autorotate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
