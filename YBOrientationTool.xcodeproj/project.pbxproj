@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036B2800215F1F14002836E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 036B27FF215F1F14002836E3 /* AppDelegate.m */; };
+		036B2803215F1F14002836E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036B2802215F1F14002836E3 /* ViewController.m */; };
+		036B2806215F1F14002836E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036B2804215F1F14002836E3 /* Main.storyboard */; };
+		036B2808215F1F16002836E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036B2807215F1F16002836E3 /* Assets.xcassets */; };
+		036B280B215F1F16002836E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036B2809215F1F16002836E3 /* LaunchScreen.storyboard */; };
+		036B280E215F1F16002836E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 036B280D215F1F16002836E3 /* main.m */; };
+		036B2818215F1F16002836E3 /* YBOrientationToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 036B2817215F1F16002836E3 /* YBOrientationToolTests.m */; };
+		036B2823215F1F16002836E3 /* YBOrientationToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 036B2822215F1F16002836E3 /* YBOrientationToolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		036B2814215F1F16002836E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 036B27F3215F1F14002836E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 036B27FA215F1F14002836E3;
+			remoteInfo = YBOrientationTool;
+		};
+		036B281F215F1F16002836E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 036B27F3215F1F14002836E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 036B27FA215F1F14002836E3;
+			remoteInfo = YBOrientationTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036B27FB215F1F14002836E3 /* YBOrientationTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YBOrientationTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		036B27FE215F1F14002836E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		036B27FF215F1F14002836E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		036B2801215F1F14002836E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		036B2802215F1F14002836E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		036B2805215F1F14002836E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		036B2807215F1F16002836E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		036B280A215F1F16002836E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		036B280C215F1F16002836E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036B280D215F1F16002836E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		036B2813215F1F16002836E3 /* YBOrientationToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBOrientationToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		036B2817215F1F16002836E3 /* YBOrientationToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBOrientationToolTests.m; sourceTree = "<group>"; };
+		036B2819215F1F16002836E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036B281E215F1F16002836E3 /* YBOrientationToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBOrientationToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		036B2822215F1F16002836E3 /* YBOrientationToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBOrientationToolUITests.m; sourceTree = "<group>"; };
+		036B2824215F1F16002836E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		036B27F8215F1F14002836E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036B2810215F1F16002836E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036B281B215F1F16002836E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		036B27F2215F1F14002836E3 = {
+			isa = PBXGroup;
+			children = (
+				036B27FD215F1F14002836E3 /* YBOrientationTool */,
+				036B2816215F1F16002836E3 /* YBOrientationToolTests */,
+				036B2821215F1F16002836E3 /* YBOrientationToolUITests */,
+				036B27FC215F1F14002836E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		036B27FC215F1F14002836E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				036B27FB215F1F14002836E3 /* YBOrientationTool.app */,
+				036B2813215F1F16002836E3 /* YBOrientationToolTests.xctest */,
+				036B281E215F1F16002836E3 /* YBOrientationToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		036B27FD215F1F14002836E3 /* YBOrientationTool */ = {
+			isa = PBXGroup;
+			children = (
+				036B27FE215F1F14002836E3 /* AppDelegate.h */,
+				036B27FF215F1F14002836E3 /* AppDelegate.m */,
+				036B2801215F1F14002836E3 /* ViewController.h */,
+				036B2802215F1F14002836E3 /* ViewController.m */,
+				036B2804215F1F14002836E3 /* Main.storyboard */,
+				036B2807215F1F16002836E3 /* Assets.xcassets */,
+				036B2809215F1F16002836E3 /* LaunchScreen.storyboard */,
+				036B280C215F1F16002836E3 /* Info.plist */,
+				036B280D215F1F16002836E3 /* main.m */,
+			);
+			path = YBOrientationTool;
+			sourceTree = "<group>";
+		};
+		036B2816215F1F16002836E3 /* YBOrientationToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				036B2817215F1F16002836E3 /* YBOrientationToolTests.m */,
+				036B2819215F1F16002836E3 /* Info.plist */,
+			);
+			path = YBOrientationToolTests;
+			sourceTree = "<group>";
+		};
+		036B2821215F1F16002836E3 /* YBOrientationToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				036B2822215F1F16002836E3 /* YBOrientationToolUITests.m */,
+				036B2824215F1F16002836E3 /* Info.plist */,
+			);
+			path = YBOrientationToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		036B27FA215F1F14002836E3 /* YBOrientationTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036B2827215F1F16002836E3 /* Build configuration list for PBXNativeTarget "YBOrientationTool" */;
+			buildPhases = (
+				036B27F7215F1F14002836E3 /* Sources */,
+				036B27F8215F1F14002836E3 /* Frameworks */,
+				036B27F9215F1F14002836E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YBOrientationTool;
+			productName = YBOrientationTool;
+			productReference = 036B27FB215F1F14002836E3 /* YBOrientationTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		036B2812215F1F16002836E3 /* YBOrientationToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036B282A215F1F16002836E3 /* Build configuration list for PBXNativeTarget "YBOrientationToolTests" */;
+			buildPhases = (
+				036B280F215F1F16002836E3 /* Sources */,
+				036B2810215F1F16002836E3 /* Frameworks */,
+				036B2811215F1F16002836E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				036B2815215F1F16002836E3 /* PBXTargetDependency */,
+			);
+			name = YBOrientationToolTests;
+			productName = YBOrientationToolTests;
+			productReference = 036B2813215F1F16002836E3 /* YBOrientationToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		036B281D215F1F16002836E3 /* YBOrientationToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036B282D215F1F16002836E3 /* Build configuration list for PBXNativeTarget "YBOrientationToolUITests" */;
+			buildPhases = (
+				036B281A215F1F16002836E3 /* Sources */,
+				036B281B215F1F16002836E3 /* Frameworks */,
+				036B281C215F1F16002836E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				036B2820215F1F16002836E3 /* PBXTargetDependency */,
+			);
+			name = YBOrientationToolUITests;
+			productName = YBOrientationToolUITests;
+			productReference = 036B281E215F1F16002836E3 /* YBOrientationToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		036B27F3215F1F14002836E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "王颖博";
+				TargetAttributes = {
+					036B27FA215F1F14002836E3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					036B2812215F1F16002836E3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 036B27FA215F1F14002836E3;
+					};
+					036B281D215F1F16002836E3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 036B27FA215F1F14002836E3;
+					};
+				};
+			};
+			buildConfigurationList = 036B27F6215F1F14002836E3 /* Build configuration list for PBXProject "YBOrientationTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 036B27F2215F1F14002836E3;
+			productRefGroup = 036B27FC215F1F14002836E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				036B27FA215F1F14002836E3 /* YBOrientationTool */,
+				036B2812215F1F16002836E3 /* YBOrientationToolTests */,
+				036B281D215F1F16002836E3 /* YBOrientationToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		036B27F9215F1F14002836E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036B280B215F1F16002836E3 /* LaunchScreen.storyboard in Resources */,
+				036B2808215F1F16002836E3 /* Assets.xcassets in Resources */,
+				036B2806215F1F14002836E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036B2811215F1F16002836E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036B281C215F1F16002836E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		036B27F7215F1F14002836E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036B2803215F1F14002836E3 /* ViewController.m in Sources */,
+				036B280E215F1F16002836E3 /* main.m in Sources */,
+				036B2800215F1F14002836E3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036B280F215F1F16002836E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036B2818215F1F16002836E3 /* YBOrientationToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036B281A215F1F16002836E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036B2823215F1F16002836E3 /* YBOrientationToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		036B2815215F1F16002836E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 036B27FA215F1F14002836E3 /* YBOrientationTool */;
+			targetProxy = 036B2814215F1F16002836E3 /* PBXContainerItemProxy */;
+		};
+		036B2820215F1F16002836E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 036B27FA215F1F14002836E3 /* YBOrientationTool */;
+			targetProxy = 036B281F215F1F16002836E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		036B2804215F1F14002836E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036B2805215F1F14002836E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		036B2809215F1F16002836E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036B280A215F1F16002836E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		036B2825215F1F16002836E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		036B2826215F1F16002836E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		036B2828215F1F16002836E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T9CHG78WE;
+				INFOPLIST_FILE = YBOrientationTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = top.wangyingbo.www.YBOrientationTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		036B2829215F1F16002836E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T9CHG78WE;
+				INFOPLIST_FILE = YBOrientationTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = top.wangyingbo.www.YBOrientationTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		036B282B215F1F16002836E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T9CHG78WE;
+				INFOPLIST_FILE = YBOrientationToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = top.wangyingbo.www.YBOrientationToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YBOrientationTool.app/YBOrientationTool";
+			};
+			name = Debug;
+		};
+		036B282C215F1F16002836E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T9CHG78WE;
+				INFOPLIST_FILE = YBOrientationToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = top.wangyingbo.www.YBOrientationToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YBOrientationTool.app/YBOrientationTool";
+			};
+			name = Release;
+		};
+		036B282E215F1F16002836E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T9CHG78WE;
+				INFOPLIST_FILE = YBOrientationToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = top.wangyingbo.www.YBOrientationToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YBOrientationTool;
+			};
+			name = Debug;
+		};
+		036B282F215F1F16002836E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T9CHG78WE;
+				INFOPLIST_FILE = YBOrientationToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = top.wangyingbo.www.YBOrientationToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YBOrientationTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		036B27F6215F1F14002836E3 /* Build configuration list for PBXProject "YBOrientationTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036B2825215F1F16002836E3 /* Debug */,
+				036B2826215F1F16002836E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036B2827215F1F16002836E3 /* Build configuration list for PBXNativeTarget "YBOrientationTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036B2828215F1F16002836E3 /* Debug */,
+				036B2829215F1F16002836E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036B282A215F1F16002836E3 /* Build configuration list for PBXNativeTarget "YBOrientationToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036B282B215F1F16002836E3 /* Debug */,
+				036B282C215F1F16002836E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036B282D215F1F16002836E3 /* Build configuration list for PBXNativeTarget "YBOrientationToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036B282E215F1F16002836E3 /* Debug */,
+				036B282F215F1F16002836E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 036B27F3215F1F14002836E3 /* Project object */;
+}
