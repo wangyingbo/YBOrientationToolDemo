@@ -74,7 +74,7 @@ static NSInteger const kMaxAccelerometerUpdatesNumber = 3;
     _t_32_accelerometer = 0;
     
     //UIDeviceOrientation 是机器硬件的当前旋转方向 这个你只能取值 不能设置
-    //使用UIDevice来获取屏幕方向（不推荐第，一次获取时会获得UIDeviceOrientationUnknown）
+    //使用UIDevice来获取屏幕方向（不推荐，第一次获取时会获得UIDeviceOrientationUnknown）
 //    if (![UIDevice currentDevice].generatesDeviceOrientationNotifications) {
 //        [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
 //    }
