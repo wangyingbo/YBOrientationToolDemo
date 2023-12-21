@@ -28,7 +28,8 @@
 
 ### Others
 
-[MotionOrientation]([Orientation](https://github.com/tastyone/MotionOrientation))
+[MotionOrientation](https://github.com/tastyone/MotionOrientation)
+[ScreenRotator](https://github.com/Rogue24/ScreenRotator)
 
 
 ### 下载链接：[DEMO](https://github.com/wangyingbo/YBOrientationToolDemo.git) ，欢迎star。
